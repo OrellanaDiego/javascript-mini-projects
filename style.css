@@ -6,6 +6,7 @@
     --ff-secondary: "Open Sans", sans-serif;
 }
 body {
+    margin: 0;
     font-family: var(--ff-primary);
 }
 h2 {
@@ -27,11 +28,11 @@ nav {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .nav-center {
-    width: 100%;
-    /* max-width: 620px; */
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 .nav-center h4 {
@@ -43,7 +44,6 @@ nav {
     display: flex;
 }
 .nav-links a{
-    border: 1px solid red;
     text-decoration: none;
     margin: 0 10px;
     color: #073b4c;
@@ -69,14 +69,17 @@ main {
 .btn-hero {
     background: transparent;
     text-transform: uppercase;
-    border: 1px solid #212529;
+    border: 2px solid #212529;
+    font-family: var(--ff-primary);
     display: inline-block;
     font-weight: 700;
     color: #222;
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 0.75rem 1.25rem;
+    transition: all 0.3s linear;
+    font-size: 16px;
 }
 .btn-hero:hover {
     background: #212529;
