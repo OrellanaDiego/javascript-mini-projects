@@ -1,2 +1,3 @@
-# javascript-mini-projects
-Dos pequeños programas que generan colores aleatorios.
+# Javascript mini projects.
+
+Pequeños proyectos en javasript para no perder la práctica.
